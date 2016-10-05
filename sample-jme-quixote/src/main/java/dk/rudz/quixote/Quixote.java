@@ -24,7 +24,7 @@ public class Quixote extends SimpleApplication {
     public void simpleInitApp() {
         cam.setLocation(new Vector3f(0f, 40f, -30f));
         cam.lookAt(Vector3f.ZERO, Vector3f.UNIT_Y);
-        rootNode.attachChild(assetManager.loadModel("Scenes/Scene.j3o"));
+        rootNode.attachChild(assetManager.loadModel("Scenes/SceneQuixota.j3o"));
     }
 
 }

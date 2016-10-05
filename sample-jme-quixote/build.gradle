@@ -32,4 +32,7 @@ dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
     compile project(':jme-gvr-bridge')
     compile "org.jmonkeyengine:jme3-terrain:$jmeEngineVersion"
+    compile "org.jmonkeyengine:jme3-effects:$jmeEngineVersion"
+    compile "org.jmonkeyengine:jme3-blender:$jmeEngineVersion"
+    compile "org.jmonkeyengine:jme3-plugins:$jmeEngineVersion"
 }
